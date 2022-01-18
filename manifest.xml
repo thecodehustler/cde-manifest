@@ -1,0 +1,29 @@
+<manifest>
+<remote name="cutefish-gh"
+fetch="https://github.com/cutefishos/" />
+
+<default revision="master" remote="cutefish-gh" sync-j="4" />
+
+<project path="fishui" name="fishui" />
+<project path="settings" name="settings" />
+<project path="core" name="core" />
+<project path="icons" name="icons" />
+<project path="wallpapers" name="wallpapers" />
+<project path="qt-plugins" name="qt-plugins" />
+<project path="libcutefish" name="libcutefish" />
+<project path="terminal" name="terminal" />
+<project path="screenshot" name="screenshot" />
+<project path="screenlocker" name="screenlocker" />
+<project path="kwin-plugins" name="kwin-plugins" />
+<project path="filemanager" name="filemanager" />
+<project path="launcher" name="launcher" />
+<project path="statusbar" name="statusbar" />
+<project path="dock" name="dock" />
+<project path="calculator" name="calculator" />
+<project path="sddm-theme" name="sddm-theme" />
+<project path="texteditor" name="texteditor" />
+
+</manifest>
+
+
+
