@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="cutefish-gh"
 fetch="https://github.com/cutefishos/" />
@@ -24,6 +25,3 @@ fetch="https://github.com/cutefishos/" />
 <project path="texteditor" name="texteditor" />
 
 </manifest>
-
-
-
