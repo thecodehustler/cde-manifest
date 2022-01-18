@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="cutefish-gh"
-fetch="https://github.com/cutefishos/" />
+<remote name="cutefish-gh" fetch="https://github.com/cutefishos/" />
 
-<default revision="master" remote="cutefish-gh" sync-j="4" />
+<default revision="main" remote="cutefish-gh" sync-j="4" />
 
 <project path="fishui" name="fishui" />
 <project path="settings" name="settings" />
