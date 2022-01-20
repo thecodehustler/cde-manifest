@@ -1,26 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="cutefish-gh" fetch="https://github.com/cutefishos/" />
+    <remote name="cutefish-gh" fetch="https://github.com/cutefishos/" />
 
-<default revision="main" remote="cutefish-gh" sync-j="4" />
+    <default revision="main" remote="cutefish-gh" sync-j="4" />
+    <!-- Cutefish GUI library -->
+    <project path="fishui" name="fishui" />
+    <!-- Settings app -->
+    <project path="settings" name="settings" />
+    <!-- System Components -->
+    <project path="core" name="core" />
+    <!-- Icons and wallpapers -->
+    <project path="icons" name="icons" />
+    <project path="wallpapers" name="wallpapers" />
+    <!-- Libraries and plugins -->
+    <project path="qt-plugins" name="qt-plugins" />
+    <project path="libcutefish" name="libcutefish" />
+    <project path="kwin-plugins" name="kwin-plugins" />
+    <!-- Apps -->
+    <project path="terminal" name="terminal" />
+    <project path="screenshot" name="screenshot" />
+    <project path="screenlocker" name="screenlocker" />
+    <project path="filemanager" name="filemanager" />
+    <project path="launcher" name="launcher" />
+    <project path="statusbar" name="statusbar" />
+    <project path="dock" name="dock" />
+    <project path="updator" name="updator" />
 
-<project path="fishui" name="fishui" />
-<project path="settings" name="settings" />
-<project path="core" name="core" />
-<project path="icons" name="icons" />
-<project path="wallpapers" name="wallpapers" />
-<project path="qt-plugins" name="qt-plugins" />
-<project path="libcutefish" name="libcutefish" />
-<project path="terminal" name="terminal" />
-<project path="screenshot" name="screenshot" />
-<project path="screenlocker" name="screenlocker" />
-<project path="kwin-plugins" name="kwin-plugins" />
-<project path="filemanager" name="filemanager" />
-<project path="launcher" name="launcher" />
-<project path="statusbar" name="statusbar" />
-<project path="dock" name="dock" />
-<project path="calculator" name="calculator" />
-<project path="sddm-theme" name="sddm-theme" />
-<project path="texteditor" name="texteditor" />
+    <project path="calculator" name="calculator" />
+    <project path="texteditor" name="texteditor" />
+    <!-- Themings for sddm. -->
+    <project path="sddm-theme" name="sddm-theme" />
 
+    <project path="debinstaller" name="debinstaller" />
+    <!-- GTK Themes -->
+    <project path="gtk-themes" name="gtk-themes" />
+
+    <project path="daemon" name="daemon" />
+    <project path="appmotor" name="appmotor" />
 </manifest>
