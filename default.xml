@@ -37,6 +37,6 @@
 
     <!-- Build script -->
     <project path="cde-build" name="cde-build" remote="build-script-gh" revision="main">
-        <linkfile src="cde-build/build.sh" dest="build.sh"/>    
+        <linkfile src="build.sh" dest="build.sh"/>
     </project>
 </manifest>
