@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <default revision="main" remote="cutefish-gh" sync-j="4" />
+    <!-- Core UI components. -->
+    <project path="settings" name="settings" />
+    <project path="dock" name="dock" />
+    <project path="screenlocker" name="screenlocker" />
+    <project path="statusbar" name="statusbar" />
+    <project path="launcher" name="launcher" />
+    <!-- System Components -->
+    <project path="core" name="core" />
+    <project path="daemon" name="daemon" />
+    <project path="appmotor" name="appmotor" />
+    <!-- Icons and wallpapers -->
+    <project path="icons" name="icons" />
+    <project path="wallpapers" name="wallpapers" />
+    <!-- Libraries and plugins -->
+    <project path="fishui" name="fishui" />
+    <project path="libcutefish" name="libcutefish" />
+    <project path="qt-plugins" name="qt-plugins" />
+    <project path="kwin-plugins" name="kwin-plugins" />
+    <!-- Apps -->
+    <project path="terminal" name="terminal" />
+    <project path="screenshot" name="screenshot" />
+    <project path="filemanager" name="filemanager" />
+    <project path="updator" name="updator" />
+    <project path="calculator" name="calculator" />
+    <project path="texteditor" name="texteditor" />
+    <project path="debinstaller" name="debinstaller" />
+    <project path="videoplayer" name="videoplayer" />
+    <!-- Themings for various components -->
+    <project path="sddm-theme" name="sddm-theme" />
+    <project path="gtk-themes" name="gtk-themes" />
+
+    <!-- Build script -->
+    <project path="cde-build" name="cde-build" remote="build-script-gh" revision="main">
+        <linkfile src="build.sh" dest="build.sh"/>
+    </project>
+</manifest>

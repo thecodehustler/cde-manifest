@@ -21,6 +21,14 @@ chmod +x repo
 
 After a relogin, `repo` should be available in PATH.
 
+> **NOTE FOR CHINESE USERS**
+> 
+> `repo` will access googlesource.com to fetch key components, which may be inaccessible for Chinese users. In that case, consider appending the following line to your `$HOME/.bashrc`
+> 
+> ``` shell
+> export REPO_URL='https://mirrors.tuna.tsinghua.edu.cn/git/git-repo'
+> ```
+
 ### 2. Init repo
 
 You only have to do this once.
@@ -28,8 +36,12 @@ You only have to do this once.
 ``` shell
 mkdir ~/cutefish
 cd ~/cutefish
-repo init -u https://github.com/thecodehustler/cde-manifest -b main
+repo init -u https://github.com/thecodehustler/cde-manifest -b main -m default.xml
 ```
+
+> **ANOTHER NOTE FOR CHINESE USERS**
+> 
+> Currently Cutefish has their source code hosted on GitHub. If you cannot access GitHub, you should consider syncing from some mirror site by replacing `default.xml` to `china.xml`.
 
 ### 3. Sync actual code
 
